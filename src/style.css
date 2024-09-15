@@ -1,0 +1,77 @@
+/* #region base */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Radjdhani, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  display: block;
+
+  height: 100vh;
+}
+
+.header__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  position: relative;
+  top: 30%;
+}
+
+.header__title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 24px;
+
+}
+
+.header__text {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 24px;
+  color: #555;
+}
+
+/* #endregion */
+
+/* #region nav */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 36px 52px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+
+  font-size: 24px;
+}
+
+.nav__link-pages {
+  display: flex;
+  gap: 30px;
+}
+
+/* #endregion */
